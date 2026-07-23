@@ -215,7 +215,7 @@ cd Enterprise-IT-Support-CapstoneProject
 Copy the example file and fill in your own values:
  
 ```bash
-cp .env.example .env
+cp .env
 ```
  
 **`.env.example`:**
