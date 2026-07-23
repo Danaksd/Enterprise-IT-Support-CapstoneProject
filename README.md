@@ -202,7 +202,7 @@ Enterprise-IT-Support-CapstoneProject/
  
 ```bash
 # Clone the repository
-git clone https://github.com/LanaAljuaid/Enterprise-IT-Support-CapstoneProject.git
+git clone https://github.com/Danaksd/Enterprise-IT-Support-CapstoneProject.git
 cd Enterprise-IT-Support-CapstoneProject
 ```
  
