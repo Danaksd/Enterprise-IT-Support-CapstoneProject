@@ -244,34 +244,6 @@ docker compose down
  
 ---
  
-## 💻 Running Locally (without Docker)
- 
-<details>
-<summary><strong>Backend</strong></summary>
-<br>
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
- 
-The API will be available at `http://localhost:8000`.
- 
-</details>
-<details>
-<summary><strong>Frontend</strong></summary>
-<br>
-```bash
-cd frontend
-npm install
-npm run dev
-```
- 
-</details>
----
- 
 ## 📑 API Documentation
  
 Once the backend is running, FastAPI's interactive Swagger UI is available at:
