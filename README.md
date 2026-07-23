@@ -290,15 +290,20 @@ http://localhost:8000/docs
  
 ## 🖼️ Screenshots
  
-<div align="center">
-| Login | Submit a Ticket |
-|---|---|
-| *[Screenshot placeholder]* | *[Screenshot placeholder]* |
- 
-| Troubleshooting Steps | IT Dashboard |
-|---|---|
-| *[Screenshot placeholder]* | *[Screenshot placeholder]* |
- 
+## Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Submit Ticket
+![Submit Ticket](screenshots/submit-ticket-page.png)
+
+### Troubleshooting
+![Troubleshooting](screenshots/troubleshooting-page.png)
+
+### IT Support Dashboard
+![Dashboard](screenshots/it-support-dashboard.png)
+
 </div>
 ---
  
