@@ -25,14 +25,14 @@ The result is a system that behaves like a real enterprise support desk: it extr
  
 ## ✨ Features
  
-- 🤖 **Six collaborating AI agents** sharing one state object, each with a single responsibility
-- 🔐 **JWT-based authentication** with role separation between `employee` and `it` accounts
-- 🗃️ **Persistent ticket lifecycle** (SQLite + SQLAlchemy) — from creation through resolution or escalation
-- 🧠 **LLM-backed reasoning** for classification, prioritization, and troubleshooting, with **strict Pydantic validation** and safe fallbacks if a response can't be parsed
-- 👤 **Human-in-the-loop verification** — resolution is confirmed by the employee, not inferred by the model
-- 📋 **Full audit trail** via a running `conversation_history` on every ticket
-- 🐳 **One-command startup** with Docker Compose (backend + frontend together)
-- 📑 **Auto-generated API docs** via FastAPI's built-in Swagger UI
+-  **Six collaborating AI agents** sharing one state object, each with a single responsibility
+-  **JWT-based authentication** with role separation between `employee` and `it` accounts
+-  **Persistent ticket lifecycle** (SQLite + SQLAlchemy) — from creation through resolution or escalation
+-  **LLM-backed reasoning** for classification, prioritization, and troubleshooting, with **strict Pydantic validation** and safe fallbacks if a response can't be parsed
+-  **Human-in-the-loop verification** — resolution is confirmed by the employee, not inferred by the model
+-  **Full audit trail** via a running `conversation_history` on every ticket
+-  **One-command startup** with Docker Compose (backend + frontend together)
+-  **Auto-generated API docs** via FastAPI's built-in Swagger UI
 ---
  
 ## 🏗️ System Architecture
