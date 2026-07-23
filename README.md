@@ -13,7 +13,7 @@ An intelligent IT support platform where a team of collaborating AI agents triag
 [![Pydantic](https://img.shields.io/badge/Pydantic-Validated-E92063?style=flat&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
  
 </div>
- 
+ [SDAIAAcademy](https://github.com/SDAIAAcademy)
 ## 📖 Overview
  
 Enterprise IT Support Capstone reimagines the traditional IT helpdesk as a **multi-agent pipeline**. Instead of a single chatbot or a static form, every ticket flows through a chain of specialized AI agents — each responsible for one clearly scoped task — coordinated through a shared state object in a LangGraph-compatible design. A human employee stays in the loop at the one point that matters most: confirming whether their issue is actually resolved.
