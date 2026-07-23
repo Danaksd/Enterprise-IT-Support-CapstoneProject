@@ -1,4 +1,4 @@
-<div align="center">
+
 # 🎫 Enterprise IT Support Capstone
  
 ### AI-Powered Multi-Agent IT Support System
@@ -11,8 +11,6 @@ An intelligent IT support platform where a team of collaborating AI agents triag
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
 [![Pydantic](https://img.shields.io/badge/Pydantic-Validated-E92063?style=flat&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/LanaAljuaid/Enterprise-IT-Support-CapstoneProject?style=flat)](../../stargazers)
  
 </div>
 ---
@@ -218,17 +216,13 @@ Copy the example file and fill in your own values:
 cp .env
 ```
  
-**`.env.example`:**
+**`.env`:**
  
 ```env
 # Groq API key used by every LLM-backed agent
 GROQ_API_KEY=your-groq-key-here
  
-# Secret used to sign JWT access tokens — change this for any real deployment
-JWT_SECRET=your-jwt-secret-here
 ```
- 
-> ⚠️ `.env` is listed in `.gitignore` and must never be committed. Only `.env.example` (with placeholder values) belongs in version control.
  
 ---
  
@@ -347,28 +341,12 @@ http://localhost:8000/docs
 - 🧪 **Automated test suite** for every agent and API endpoint
 ---
  
-## 🤝 Contributing
- 
-Contributions are welcome. To propose a change:
- 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes with a clear message
-4. Open a pull request describing what changed and why
-Please keep new agents consistent with the existing pattern: a Pydantic model for the expected LLM response, a clear system prompt, strict JSON validation, and a safe fallback on parse failure.
- 
----
- 
-## 📄 License
- 
-This project is licensed under the [MIT License](./LICENSE).
- 
----
+
  
 ## 👤 Authors
  
 **Lana Aljuaid**
-[GitHub](https://github.com/lanaAljuaid) · [LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/lanaAljuaid) · [LinkedIn](https://linkedin.com/in/lana-aljuaid-cs)
 
  **Dana**
 [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
