@@ -24,7 +24,7 @@ The result is a system that behaves like a real enterprise support desk: it extr
  
 ## ✨ Features
  
--  **Six collaborating AI agents** sharing one state object, each with a single responsibility
+-  **seven collaborating AI agents** sharing one state object, each with a single responsibility
 -  **JWT-based authentication** with role separation between `employee` and `it` accounts
 -  **Persistent ticket lifecycle** (SQLite + SQLAlchemy) — from creation through resolution or escalation
 -  **LLM-backed reasoning** for classification, prioritization, and troubleshooting, with **strict Pydantic validation** and safe fallbacks if a response can't be parsed
@@ -40,13 +40,13 @@ The result is a system that behaves like a real enterprise support desk: it extr
  
 ```mermaid
 flowchart TD
-    A[👤 Employee submits ticket] --> B["1️⃣ Ticket Intake Agent"]
-    B --> C["2️⃣ Issue Classification Agent"]
-    C --> D["3️⃣ Priority Assessment Agent"]
-    D --> E["4️⃣ Troubleshooting Agent"]
+    A[👤 Employee submits ticket] --> B[" Ticket Intake Agent"]
+    B --> C[" Issue Classification Agent"]
+    C --> D[" Priority Assessment Agent"]
+    D --> E[" Troubleshooting Agent"]
     E --> F{"👤 Employee verifies:<br/>Resolved?"}
     F -->|"✅ Yes"| G["Ticket Closed"]
-    F -->|"❌ No"| H["7️⃣ Escalation Agent"]
+    F -->|"❌ No"| H[" Escalation Agent"]
     H --> I["🧑‍💻 IT Team Reviews & Claims"]
     I --> J["Ticket Closed"]
  
