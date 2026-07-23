@@ -323,7 +323,7 @@ http://localhost:8000/docs
 **Lana Aljuaid**
 [GitHub](https://github.com/lanaAljuaid) · [LinkedIn](https://linkedin.com/in/lana-aljuaid-cs)
 
- **Dana**
+ **Dana Aldalaan**
 [GitHub](https://github.com/danaksd) · [LinkedIn](https://www.linkedin.com/in/dana-aldalaan-059187308)
 
  **Njood**
