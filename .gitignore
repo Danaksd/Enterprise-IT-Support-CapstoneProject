@@ -1,0 +1,23 @@
+# Secrets — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# SQLite databases (contain test data, regenerate on each run)
+*.db
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Docker
+backend_data/
