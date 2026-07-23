@@ -309,13 +309,11 @@ http://localhost:8000/docs
  
 ## 🔮 Future Improvements
  
-- 🧭 **Action Agent** — scoped, simulated automated actions (password reset, account unlock, service restart) between Troubleshooting and Verification
-- 📚 **Knowledge Base Agent** — retrieval-augmented answers grounded in internal IT documentation
-- 🛠️ **Resolution Agent** — deeper root-cause analysis for issues that repeatedly escalate
-- 🧠 **Persistent memory** across an employee's tickets, to spot recurring issues automatically
-- 🔒 **Expanded security layer** — rate limiting, refresh tokens, audit logging
-- 📊 **Analytics dashboard** — ticket volume, resolution time, and category trends for IT leadership
-- 🧪 **Automated test suite** for every agent and API endpoint
+-  **Action Agent** — scoped, simulated automated actions (password reset, account unlock, service restart) between Troubleshooting and Verification
+-  **Knowledge Base Agent** — retrieval-augmented answers grounded in internal IT documentation
+-  **Multi-Tenant Architecture** — — isolated data per organization, with Okta authentication.
+-  
+
 ---
  
 
@@ -326,6 +324,9 @@ http://localhost:8000/docs
 [GitHub](https://github.com/lanaAljuaid) · [LinkedIn](https://linkedin.com/in/lana-aljuaid-cs)
 
  **Dana**
+[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
+
+ **Njood**
 [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
 </div>
 
