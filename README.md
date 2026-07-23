@@ -13,7 +13,6 @@ An intelligent IT support platform where a team of collaborating AI agents triag
 [![Pydantic](https://img.shields.io/badge/Pydantic-Validated-E92063?style=flat&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
  
 </div>
----
  
 ## 📖 Overview
  
