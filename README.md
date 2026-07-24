@@ -326,7 +326,7 @@ http://localhost:8000/docs
  **Dana Aldalaan**
 [GitHub](https://github.com/danaksd) · [LinkedIn](https://www.linkedin.com/in/dana-aldalaan-059187308)
 
- **Njood**
+ **Nojood ALnahdi**
 [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
 </div>
 
